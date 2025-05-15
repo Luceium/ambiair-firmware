@@ -10,7 +10,7 @@ using namespace esp_matter::endpoint;
 
 /* ------------ stepper setup ------------ */
 constexpr int stepsPerRevolution = 2048;   // 28BYJ‑48
-constexpr int windowTravelSteps  = 512;    // tune this
+constexpr int windowTravelSteps  = 3000;    // tune this
 #define IN1 19
 #define IN2 18
 #define IN3 5
